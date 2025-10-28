@@ -17,3 +17,5 @@ Se pueden cambiar los mensajes que se muestran, cuando se captura una Excepción
 Ningún dato esta validado, salvo lo necesario para que no de errores de interfaz grafica. Todas las validaciones las debe realizar cada clase, asegurando que se cumpla el IREP 
 
 Tener en cuenta que hay cambios en la interfaz del TAD principal, esta comentado cuales fueron los cambios.
+
+HOLA
