@@ -32,15 +32,7 @@ public class Tarea {
 	// guarda el costo base segun el tipo de empleado y la duracion
 	public void calcularCostoBase() {//double valorHoraODia, String tipoEmpleado
 		
-		if (empleadoAsignado=empladoDePlanta) {
-				costoBase= costoBase + empleadoAsignado.darValorDia()*duracionDias;
-
-		}
-
-			else { //empleadoContratado
-				costoBase= costoBase + empleadoAsignado.darValorHora()*duracionDias;
-
-			}
+		empleadoAsignado.calcularCostoBase(duracionDias);
 	}
 
 	// aumenta el contador diasRetraso en Tarea y suma al contador del
